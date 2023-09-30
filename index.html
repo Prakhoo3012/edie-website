@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <link rel="icon" href="./images/devchallenges.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Devchallenges</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      scroll-behavior: smooth;
+    }
+
+    .navlinks {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 36px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="py-3 lg:px-28 px-5 w-full flex items-center justify-between">
+    <!-- logo -->
+    <div class="">
+      <h1 class="leading-[53px] font-[800] text-[30px] font-[Heebo]">Edie</h1>
+    </div>
+    <!-- navlinks -->
+    <div class="sm:flex hidden gap-8 ">
+      <a href="#home" class="navlinks">Home</a>
+      <a href="#services" class="navlinks">Services</a>
+      <a href="#work" class="navlinks">Our Works</a>
+      <a href="#clients" class="navlinks">Clients</a>
+      <a href="#" class="navlinks">Contact</a>
+    </div>
+    <div class="sm:hidden block">
+      <i class="ri-menu-3-line text-black text-4xl"></i>
+    </div>
+  </nav>
+  <!-- end of navbar -->
+  <!-- main -->
+  <main class="py-16 lg:px-28 px-5" id="home">
+    <h6 class="font-[poppins] font-[500] text-[20px] leading-[27px] text-[#2D9CDB] lg:px-32">Unhappy with your website?
+    </h6>
+    <h1 class="font-[poppins] lg:text-[48px] text-[30px] lg:leading-[64px] font-[500] text-[#333333] lg:px-32 mt-2">We
+      create beautiful <br>
+      and fast web services</h1>
+    <div class="w-full lg:h-[50vh] my-10 rounded-2xl overflow-hidden">
+      <img src="./images/heroImage.jpg" alt="heroImage"
+        class="w-full lg:h-full lg:object-cover object-contain rounded-2xl hover:scale-[1.10] hover:cursor-pointer transition duration-300 ease-in-out brightness-[80%]">
+    </div>
+    <div class="lg:px-32 mt-8 flex">
+      <div class="w-[350px]">
+        <h2 class="font-[poppins] font-[500] lg:text-[48px] text-[36px] lg:leading-[64px] text-[#333333]">Story, emotion
+          <br>
+          and purpose</h2>
+        <p class="font-[poppins] font-[400] text-[18px] leading-[27px] text-[#4F4F4F] mt-6">We help transform your ideas
+          into real world applications that will outperform your toughest competition and
+          help you achieve your strategic goals in short period of time.</p>
+        <p class="font-[poppins] font-[500] text-[14px] leading-[21px] text-[#828282] mt-6">Want us to contact you?</p>
+        <div class="w-[350px] h-[57px] bg-[#F2F2F2] rounded-[12px] mt-4 flex items-center justify-end p-2">
+          <input type="text" class="flex-1 h-full bg-transparent outline-none text-[20px] font-[600] px-2"
+            placeholder="Email">
+          <button
+            class="bg-[#2D9CDB] text-[18px] font-semibold w-[94px] h-[49px] rounded-[12px] text-white">Join</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <section class="mt-24" id="services">
+      <h1 class="font-[poppins] font-[500] text-[36px] leading-[54px] text-[#333333]">We offer high <br> demand services
+      </h1>
+      <div class="flex sm:flex-row flex-col lg:gap-20 sm:gap-5 lg:px-10 lg:px-5 py-5 mt-5">
+        <div
+          class="bg-white rounded-3xl py-14 lg:px-10 sm:px-5 group hover:cursor-pointer hover:shadow-2xl flex flex-col gap-10 transition duration-300 ease-in-out">
+          <div class="px-4 py-3 bg-[#2D9CDB] rounded-lg max-w-fit">
+            <i class="ri-pencil-fill text-2xl text-white"></i>
+          </div>
+          <h2 class="text-2xl font-semibold font-[poppins]">UI/UX Design</h2>
+          <p class="text-[#4F4F4F] text-sm font-[poppins] font-[400]">Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+          <button
+            class="p-3 px-4 lg:w-1/2 w-full rounded-[12px] bg-[#E0E0E0] text-[18px] leading-[24px] text-[#828282] font-[500] font-[poppins] group-hover:bg-[#2D9CDB] group-hover:text-white transition duration-300 ease-in-out">Get
+            started</button>
+        </div>
+        <div
+          class="bg-white rounded-3xl py-14 lg:px-10 sm:px-5 group hover:cursor-pointer hover:shadow-2xl flex flex-col gap-10 transition duration-300 ease-in-out">
+          <div class="px-4 py-3 bg-[#27AE60] rounded-lg max-w-fit">
+            <i class="ri-code-fill text-2xl text-white"></i>
+          </div>
+          <h2 class="text-2xl font-semibold font-[poppins]">Front End</h2>
+          <p class="text-[#4F4F4F] text-sm font-[poppins] font-[400]">Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+          <button
+            class="p-3 px-4 lg:w-1/2 w-full rounded-[12px] bg-[#E0E0E0] text-[18px] leading-[24px] text-[#828282] font-[500] font-[poppins] group-hover:bg-[#2D9CDB] group-hover:text-white transition duration-300 ease-in-out">Get
+            started</button>
+        </div>
+        <div
+          class="bg-white rounded-3xl py-14 lg:px-10 sm:px-5 group hover:cursor-pointer hover:shadow-2xl flex flex-col gap-10 transition duration-300 ease-in-out">
+          <div class="px-4 py-3 bg-[#EB5757] rounded-lg max-w-fit">
+            <i class="ri-menu-fill text-2xl text-white"></i>
+          </div>
+          <h2 class="text-2xl font-semibold font-[poppins]">Back End</h2>
+          <p class="text-[#4F4F4F] text-sm font-[poppins] font-[400]">Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+          <button
+            class="p-3 px-4 lg:w-1/2 w-full rounded-[12px] bg-[#E0E0E0] text-[18px] leading-[24px] text-[#828282] font-[500] font-[poppins] group-hover:bg-[#2D9CDB] group-hover:text-white transition duration-300 ease-in-out">Get
+            started</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- our work -->
+    <section class="mt-24" id="work">
+      <h1 class="font-[poppins] font-[500] text-[36px] leading-[54px] text-[#333333]">Good design means <br> good
+        business
+      </h1>
+      <div class="grid sm:grid-cols-2 grid-cols-1 gap-10 sm:mt-0 mt-5">
+        <div class="pb-10 sm:pt-32 flex flex-col sm:items-end">
+          <div class="rounded-2xl sm:w-[70%] w-full overflow-hidden">
+            <img src="./images/smarthome.jpg" alt="smarthome"
+              class="rounded-2xl w-[100%] hover:scale-[1.10] hover:cursor-pointer transition duration-300 ease-in-out">
+          </div>
+          <div class="sm:w-[70%] w-full bg-white mt-3">
+            <p class="font-[poppins] text-[14px] leading-[21px] font-[300] text-[#828282]">Full stack application</p>
+            <h6 class="font-[poppins] font-[500] text-[24px] leading-[36px] text-[#333333]">Smart home dashboard</h6>
+          </div>
+        </div>
+        <div class="pb-10 flex flex-col sm:items-start sm:mt-0 mt-5">
+          <div class="rounded-2xl sm:w-[70%] w-full overflow-hidden">
+            <img src="./images/onboard.png" alt="smarthome"
+              class="rounded-2xl w-[100%] hover:scale-[1.10] hover:cursor-pointer transition duration-300 ease-in-out">
+          </div>
+          <div class="sm:w-[70%] w-full bg-white mt-3">
+            <p class="font-[poppins] text-[14px] leading-[21px] font-[300] text-[#828282]">UX/UI design</p>
+            <h6 class="font-[poppins] font-[500] text-[24px] leading-[36px] text-[#333333]">Onboard application</h6>
+          </div>
+        </div>
+        <div class="pb-10 sm:pt-32 flex flex-col sm:items-end sm:mt-0 mt-5">
+          <div class="rounded-2xl sm:w-[70%] w-full overflow-hidden">
+            <img src="./images/booking.png" alt="smarthome"
+              class="rounded-2xl w-[100%] hover:scale-[1.10] hover:cursor-pointer transition duration-300 ease-in-out">
+          </div>
+          <div class="sm:w-[70%] w-full bg-white mt-3">
+            <p class="font-[poppins] text-[14px] leading-[21px] font-[300] text-[#828282]">Mobile application</p>
+            <h6 class="font-[poppins] font-[500] text-[24px] leading-[36px] text-[#333333]">Booking system</h6>
+          </div>
+        </div>
+        <div class="pb-10 flex flex-col sm:items-start sm:mt-0 mt-5">
+          <div class="rounded-2xl sm:w-[70%] w-full overflow-hidden">
+            <img src="./images/juice-product.png" alt="smarthome"
+              class="rounded-2xl w-[100%] hover:scale-[1.10] hover:cursor-pointer transition duration-300 ease-in-out">
+          </div>
+          <div class="sm:w-[70%] w-full bg-white mt-3">
+            <p class="font-[poppins] text-[14px] leading-[21px] font-[300] text-[#828282]">Front End application</p>
+            <h6 class="font-[poppins] font-[500] text-[24px] leading-[36px] text-[#333333]">Juice product homepage</h6>
+          </div>
+        </div>
+      </div>
+      <div class="sm:text-end">
+        <a href="#" class="text-[#2D9CDB] text-sm font-[poppins] font-[300]">See more <i
+            class="ri-arrow-right-line"></i></a>
+      </div>
+    </section>
+
+    <!-- team -->
+    <section class="mt-24 w-full flex sm:flex-row flex-col lg:px-32 px-5">
+      <div class="sm:w-1/2 w-full flex flex-col justify-center lg:px-12">
+        <p class="text-[#EB5757] font-[poppins] font-[500] text-[18px] leading-[27px]">Meet the team</p>
+        <h3 class="text-[#333333] font-[500] font-[poppins] text-[36px] leading-[54px]">
+          We are chilled <br> and a laidback <br> team
+        </h3>
+        <p class="text-[#4F4F4F] font-[400] font-[poppins] text-[16px] leading-[24px]">
+          Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="sm:w-1/2 w-full grid grid-cols-2 sm:mt-0 mt-5">
+        <div class="h-full flex items-center justify-end">
+          <img src="./images/person3.png" alt="person3"
+            class="rounded-2xl w-[80%] hover:scale-[1.10] hover:cursor-pointer transition duration-300 ease-in-out">
+        </div>
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center justify-center">
+            <img src="./images/person2.png" alt="person2"
+              class="rounded-2xl w-[80%] hover:scale-[1.10] hover:cursor-pointer transition duration-300 ease-in-out">
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="./images/person1.png" alt="person1"
+              class="rounded-2xl w-[80%] hover:scale-[1.10] hover:cursor-pointer transition duration-300 ease-in-out">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review -->
+    <section class="mt-24 lg:pr-96" id="clients">
+      <h3 class="font-[poppins] lg:text-[36px] text-[24px] lg:leading-[54px] font-[500] text-[#333333]">“Fast and
+        outstanding resutls.
+        Edie understands their customer’s needs. They have a young and talented team.”</h3>
+      <div class="flex gap-5 mt-5">
+        <div class="w-20 h-20 bg-red-100 rounded-2xl">
+          <img src="./images/person4.png" alt="person4"
+            class="w-full h-full rounded-2xl hover:scale-[1.10] hover:cursor-pointer transition duration-300 ease-in-out">
+        </div>
+        <div>
+          <p class="font-[poppins] font-[500] text-[24px] font-[500] leading-[36px] text-[#333333]">Carlos Tran</p>
+          <p class="font-[poppins] font-[500] text-[18px] font-[500] leading-[27px] text-[#828282]">The Decorate Gatsby
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-[#100E1D] pt-16 pb-10 mt-24 sm:px-0 px-5">
+    <div class="flex sm:flex-row flex-col sm:gap-0 gap-10 justify-around">
+      <ul class="flex flex-col">
+        <a href="#home" class="navlinks text-white">Home</a>
+        <a href="#services" class="navlinks text-white">Services</a>
+        <a href="#work" class="navlinks text-white">Our works</a>
+        <a href="#clients" class="navlinks text-white">Clients</a>
+        <a href="#" class="navlinks text-white">Contact</a>
+      </ul>
+      <div>
+        <h1 class="leading-[53px] font-[800] text-[36px] tracking-wider font-[Heebo] text-white">Edie</h1>
+        <ul>
+          <a href="#" class="navlinks text-white"><i class="ri-instagram-line text-2xl"></i></a>
+          <a href="#" class="navlinks text-white"><i class="ri-linkedin-box-line text-2xl"></i></i></a>
+          <a href="#" class="navlinks text-white"><i class="ri-twitter-x-line text-2xl"></i></a>
+        </ul>
+      </div>
+      <div>
+        <p class="text-white text-[14px] font-[500] font-[poppins] leading-[21px]">Want us to contact you?</p>
+        <div class="w-[350px] h-[57px] bg-[#F2F2F2] rounded-[12px] mt-4 flex items-center justify-end p-2">
+          <input type="text" class="flex-1 h-full bg-transparent outline-none text-[20px] font-[600] px-2"
+            placeholder="Email">
+          <button
+            class="bg-[#2D9CDB] text-[18px] font-semibold w-[94px] h-[49px] rounded-[12px] text-white">Join</button>
+        </div>
+      </div>
+    </div>
+    <p class="text-center leading-[18px] font-mono font-[700] text-[14px] text-[#F2F2F2] sm:mt-0 mt-20">created by <a
+        href="">Prakhar</a> - devChallenges.io</p>
+  </footer>
+</body>
+
+</html>
